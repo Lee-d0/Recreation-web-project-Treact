@@ -1118,7 +1118,45 @@ body{
         width: 100%;
     }
 }
+/* FAQs Section */
 
+
+.question__container{
+    background-color: rgb(237 242 247);
+    margin-top: 20px;
+    padding: 20px 32px;
+    border-radius: 8px;
+}
+.question__group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.group__text{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+.down__arrow{
+    margin-left: 20px;
+}
+.question__wrapper{
+    position: relative;
+    margin-top: 3rem;
+    max-width: 56rem;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .faq__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}
 
 /* Get Started */
 
